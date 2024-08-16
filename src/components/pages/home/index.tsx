@@ -10,7 +10,7 @@ import {
 } from "@/components/pages/home/index.styled";
 import { Data } from "@/libs/Db/CollapseData";
 
-export default function () {
+export default function HomePageComponent() {
   const [form] = Form.useForm();
   const [data, setData] = useState<Partial<ICollapseData>[]>(Data);
   const [isLoading, setIsLoading] = useState<boolean>(false);
